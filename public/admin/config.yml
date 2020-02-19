@@ -1,6 +1,6 @@
 backend:
-  name: test-repo
-  branch: master
+  name: github
+  repo: AlexGilleran/natural-healing-way
 media_folder: public/img
 public_folder: img
 collections:
