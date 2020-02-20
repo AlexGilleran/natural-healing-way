@@ -48,7 +48,7 @@ class MyApp extends App {
             <img src="/Natural-Healing-banner.jpg" width="1080" height="90" />
           </div>
           <nav className="w-screen bg-nhw-green">
-            <ul className="flex container mx-auto">
+            <ul className="container mx-auto hidden sm:flex">
               {attributes.nav.map(nav => (
                 <MenuItem item={nav}></MenuItem>
               ))}
