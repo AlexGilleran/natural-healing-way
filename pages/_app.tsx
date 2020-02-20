@@ -16,15 +16,19 @@ function MenuItem({ item }: { item: NavItem }) {
     return (
       <li>
         <Link href={item.href}>
-          <a className="text-white font-bold p-4 inline-block">{item.label}</a>
+          <a className="header-button hover:bg-nhw-brown w-full">
+            {item.label}
+          </a>
         </Link>
       </li>
     );
   } else {
     return (
       <li className="group relative">
-        <button className="text-white font-bold p-4 inline-block">{item.label}</button>
-        <ul className="hidden group-hover:block absolute bg-nhw-green">
+        <button className="header-button hover:bg-nhw-brown">
+          {item.label}
+        </button>
+        <ul className="invisible opacity-0 group-hover:opacity-100 group-hover:visible absolute bg-nhw-green transition-nav-menu duration-200">
           {item.children.map(item => (
             <MenuItem item={item}></MenuItem>
           ))}
@@ -40,11 +44,11 @@ class MyApp extends App {
     return (
       <>
         <header>
-          <div className="p-2">
+          <div className="p-2 container mx-auto">
             <img src="/Natural-Healing-banner.jpg" width="1080" height="90" />
           </div>
           <nav className="w-screen bg-nhw-green">
-            <ul className="flex">
+            <ul className="flex container mx-auto">
               {attributes.nav.map(nav => (
                 <MenuItem item={nav}></MenuItem>
               ))}
