@@ -5,5 +5,8 @@ module.exports = {
         "nhw-green": "#0c9954"
       }
     }
+  },
+  variants: {
+    display: ["group-hover"]
   }
 };
