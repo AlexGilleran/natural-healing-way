@@ -3,7 +3,7 @@
 @import "tailwindcss/utilities";
 
 .header-button {
-  @apply text-white font-bold p-4 inline-block whitespace-no-wrap transition duration-200;
+  @apply text-white font-bold p-4 whitespace-no-wrap transition duration-200;
 }
 
 .header-button-hover {

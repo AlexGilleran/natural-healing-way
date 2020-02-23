@@ -11,7 +11,7 @@ module.exports = {
     }
   },
   variants: {
-    visibility: ["group-hover"],
-    opacity: ["group-hover"]
+    visibility: ["group-hover", "responsive"],
+    opacity: ["group-hover", "responsive"]
   }
 };
