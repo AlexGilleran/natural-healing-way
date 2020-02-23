@@ -9,3 +9,8 @@
 .header-button-hover {
   @apply opacity-0 invisible;
 }
+
+.panel-svg-wrapper svg {
+  height: 100%;
+  fill: currentColor;
+}

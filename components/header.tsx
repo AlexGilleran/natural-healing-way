@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { useState } from "react";
 
-import { attributes } from "../content/nav.md";
+import { attributes } from "../content/header.md";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -39,10 +39,10 @@ export default function Header() {
         </div>
       </div>
 
-      <div className="w-screen bg-nhw-green h-2 block sm:hidden" />
+      <div className="bg-nhw-green h-2 block sm:hidden" />
 
       <nav
-        className={`w-screen bg-nhw-green ${
+        className={`bg-nhw-green ${
           menuOpen ? "visible opacity-100" : "invisible opacity-0"
         } sm:visible sm:opacity-100 absolute sm:static transition-nav-menu duration-200`}
       >
@@ -57,6 +57,8 @@ export default function Header() {
 }
 
 function MenuItem({ item }: { item: NavItem }) {
+  const [forceOpen, setForceOpen] = useState(false);
+
   if (item.href) {
     return (
       <li>
@@ -70,10 +72,21 @@ function MenuItem({ item }: { item: NavItem }) {
   } else {
     return (
       <li className="group relative">
-        <button className="header-button hover:bg-nhw-brown hidden sm:inline-block">
+        <button
+          className={`header-button hover:bg-nhw-brown ${
+            forceOpen ? "bg-nhw-brown" : ""
+          } hidden sm:inline-block`}
+          onClick={() => setForceOpen(!forceOpen)}
+        >
           {item.label}
         </button>
-        <ul className="sm:invisible sm:opacity-0 sm:group-hover:opacity-100 sm:group-hover:visible sm:absolute bg-nhw-green transition-nav-menu duration-200">
+        <ul
+          className={`sm:group-hover:opacity-100 sm:group-hover:visible ${
+            forceOpen
+              ? "sm:opacity-100 sm:visible"
+              : "sm:opacity-0 sm:invisible"
+          } sm:absolute bg-nhw-green transition-nav-menu duration-200`}
+        >
           {item.children.map(item => (
             <MenuItem item={item}></MenuItem>
           ))}

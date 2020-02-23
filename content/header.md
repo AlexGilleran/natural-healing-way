@@ -24,4 +24,8 @@ nav:
         href: "/sports-injury"
       - label: Weight Loss
         href: "/weight-loss"
+  - label: FAQ
+    href: "/faq" 
+  - label: Contact Us
+    href: "/contact-us"
 ---

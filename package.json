@@ -13,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.1",
     "@fullhuman/postcss-purgecss": "^2.0.6",
     "autoprefixer": "^9.7.4",
     "next": "^9.2.2",
@@ -22,9 +23,10 @@
     "tailwindcss": "^1.2.0"
   },
   "devDependencies": {
-    "@types/react": "^16.9.20",
     "@types/node": "^13.7.2",
+    "@types/react": "^16.9.20",
     "frontmatter-markdown-loader": "^3.1.0",
+    "raw-loader": "^4.0.0",
     "typescript": "^3.7.5"
   }
 }
