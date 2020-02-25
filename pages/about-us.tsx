@@ -12,9 +12,16 @@ export default class Home extends Component {
           <title>{title}</title>
         </Head>
 
-        <article className="container mx-auto">
-          <AboutUsContent />
-        </article>
+        <div className="container mx-auto grid grid-cols-3 gap-4">
+          <article className="markdown col-span-2">
+            <AboutUsContent />
+          </article>
+          <aside className="col-span-1">
+            <h2>People who love us</h2>
+            
+            <h2>Contact Us</h2>
+          </aside>
+        </div>
 
         {/* <article>
           <h1>{title}</h1>

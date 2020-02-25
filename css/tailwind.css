@@ -2,6 +2,10 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+body {
+  @apply text-gray-800;
+}
+
 .header-button {
   @apply text-white font-bold p-4 whitespace-no-wrap transition duration-200;
 }
@@ -13,4 +17,16 @@
 .panel-svg-wrapper svg {
   height: 100%;
   fill: currentColor;
+}
+
+.markdown h1 {
+  @apply text-nhw-brown text-2xl my-4 font-medium;
+}
+
+.markdown p {
+  @apply my-5;
+}
+
+.markdown li {
+  @apply list-decimal list-inside my-1 ml-5;
 }
