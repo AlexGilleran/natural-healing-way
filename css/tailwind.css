@@ -27,6 +27,14 @@ body {
   @apply my-5;
 }
 
-.markdown li {
+.markdown ol li {
   @apply list-decimal list-inside my-1 ml-5;
+}
+
+.markdown a {
+  @apply text-blue-600 underline;
+}
+
+.markdown img {
+  @apply w-full;
 }
