@@ -23,6 +23,14 @@ body {
   @apply text-nhw-brown text-2xl my-4 font-medium;
 }
 
+.markdown h2 {
+  @apply text-gray-700 text-xl font-bold mb-2;
+}
+
+.markdown h3 {
+  @apply text-gray-700 font-bold;
+}
+
 .markdown p {
   @apply my-5;
 }
@@ -37,4 +45,16 @@ body {
 
 .markdown img {
   @apply w-full;
+}
+
+img.therapist-picture {
+  @apply w-64 rounded my-5;
+}
+
+img.therapist-picture--left {
+  @apply float-left mr-5;
+}
+
+img.therapist-picture--right {
+  @apply float-right ml-5;
 }
