@@ -22,10 +22,10 @@ export default class Services extends Component {
         </div>
         <ul>
           {services.map(service => (
-            <li className="my-6 flex flex-row items-center">
-              <h2 className="font-bold text-lg mr-2 w-48 flex-shrink-0">{service.title}</h2>
+            <li className="my-6 flex flex-row flex-wrap sm:flex-no-wrap justify-between items-center">
+              <h2 className="font-bold text-lg mr-2 ml-2 sm:ml-0 w-48 flex-shrink-0">{service.title}</h2>
               <img src={service.image} className="rounded-full w-20 h-20 flex-shrink-0" />
-              <ul className="ml-6 list-disc">
+              <ul className="ml-6 mt-4 sm:mt-0 list-disc">
                 {service.points.map(point => (
                   <li>{point}</li>
                 ))}

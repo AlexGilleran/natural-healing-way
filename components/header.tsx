@@ -8,7 +8,7 @@ export default function Header() {
 
   return (
     <header>
-      <div className="p-2 container mx-auto flex flex-row items-center justify-between">
+      <div className="py-2 px-4 container mx-auto flex flex-row items-center justify-between">
         <Link href="/">
           <a>
             <img
@@ -22,7 +22,7 @@ export default function Header() {
         <div className="block sm:hidden">
           <button
             className={
-              "flex items-center px-3 py-3 border rounded text-white hover:bg-white " +
+              "flex items-center px-4 py-3 border rounded text-white hover:bg-white " +
               "border-nhw-green bg-nhw-green hover:text-nhw-green mt-1 sm:mt-0"
             }
             onClick={() => setMenuOpen(!menuOpen)}

@@ -13,7 +13,7 @@ export default function ContentPage(props: Props) {
         <title>{props.title}</title>
       </Head>
 
-      <div className="container mx-auto grid grid-cols-1 lg:grid-cols-3 gap-4">
+      <div className="container mx-auto px-4 grid grid-cols-1 lg:grid-cols-3 gap-4">
         <article className="col-span-2">{props.children}</article>
         <aside className="col-span-1">
           {/* <h2>People who love us</h2>
