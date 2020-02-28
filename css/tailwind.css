@@ -40,7 +40,7 @@ body {
 }
 
 .markdown table {
-  @apply mt-2 mb-5
+  @apply mt-2 mb-5;
 }
 
 .markdown td {
@@ -52,11 +52,11 @@ body {
 }
 
 .markdown ol li {
-  @apply list-decimal my-1 ml-5;
+  @apply list-decimal my-1 ml-6 list-outside;
 }
 
 .markdown ul li {
-  @apply list-disc my-1 ml-5;
+  @apply list-disc my-1 list-outside;
 }
 
 .markdown a {
@@ -64,32 +64,37 @@ body {
 }
 
 .markdown img {
-  @apply rounded
+  @apply rounded;
 }
 
 img.therapist-picture {
-  @apply w-64 my-5;
+  @apply my-5 w-full;
 }
 
-img.therapist-picture--left {
-  @apply float-left mr-5;
-}
+@screen sm {
+  img.therapist-picture {
+    @apply w-64;
+  }
 
-img.therapist-picture--right {
-  @apply float-right ml-5;
-}
+  img.therapist-picture--left {
+    @apply float-left mr-5;
+  }
 
+  img.therapist-picture--right {
+    @apply float-right ml-5;
+  }
+}
 
 .float-right-image {
-  @apply w-full
+  @apply w-full;
 }
 
 @screen sm {
   .float-right-image {
-    @apply float-right mx-5 mb-5 w-2/5 
+    @apply float-right mx-5 mb-5 w-2/5;
   }
 }
 
 .contact-us td:first-child {
-  @apply w-48
+  @apply w-48;
 }

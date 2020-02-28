@@ -1,10 +1,22 @@
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 import { attributes } from "../content/header.md";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+
+  useEffect(() => {
+    const handler = () => {
+      setMenuOpen(false);
+    };
+
+    document.body.addEventListener("click", handler);
+
+    return function cleanup() {
+      document.body.addEventListener("click", handler);
+    };
+  });
 
   return (
     <header>
@@ -44,7 +56,7 @@ export default function Header() {
       <nav
         className={`bg-nhw-green ${
           menuOpen ? "visible opacity-100" : "invisible opacity-0"
-        } sm:visible sm:opacity-100 absolute sm:static transition-nav-menu duration-200`}
+        } sm:visible sm:opacity-100 absolute sm:static transition-nav-menu duration-200 right-0`}
       >
         <ul className="container mx-auto sm:flex">
           {attributes.nav.map((nav: NavItem) => (
@@ -58,6 +70,18 @@ export default function Header() {
 
 function MenuItem({ item }: { item: NavItem }) {
   const [forceOpen, setForceOpen] = useState(false);
+
+  useEffect(() => {
+    const handler = () => {
+      setForceOpen(false);
+    };
+
+    document.body.addEventListener("click", handler);
+
+    return function cleanup() {
+      document.body.addEventListener("click", handler);
+    };
+  });
 
   if (item.href) {
     return (
@@ -76,7 +100,7 @@ function MenuItem({ item }: { item: NavItem }) {
           className={`header-button hover:bg-nhw-brown ${
             forceOpen ? "bg-nhw-brown" : ""
           } hidden sm:inline-block`}
-          onClick={() => setForceOpen(!forceOpen)}
+          onClick={() => setForceOpen(true)}
         >
           {item.label}
         </button>
