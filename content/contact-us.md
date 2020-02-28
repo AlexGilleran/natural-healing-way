@@ -25,4 +25,4 @@ Bondi Junction, NSW 2022
 | ------ | --------------------------------------------------------------------- |
 | Phone: | 0452 218 646                                                          |
 |        | 0433 194 963                                                          |
-| Email: | [info@naturalhealingway.com.au](mailto:info@naturalhealingway.com.au) |
+| Email: | [herbal58@hotmail.com](mailto:herbal58@hotmail.com) |
