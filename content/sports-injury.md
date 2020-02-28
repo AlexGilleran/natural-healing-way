@@ -4,7 +4,7 @@ title: Sports Injury | Natural Healing
 
 # Sports Injury
 
-<img alt="Picture of a bandaged ankle" src="/Injury.png" class="sm:float-right sm:m-5 sm:w-2/5 w-full" />
+<img alt="Picture of a bandaged ankle" src="/Injury.png" className="float-right-image" />
 
 Sports injury is one of the most common areas of health concern. It encompasses a wide range of aches and injuries – from chronic pain experienced by athletes after years of physical strain, to those irritating one-off accidents.
 

@@ -4,7 +4,7 @@ title: Stress Based Illnesses | Natural Healing
 
 # Stress Based Illnesses
 
-<img alt="Picture of a stressed-looking woman" src="/Stress-based-illness.png" title="Stressed face" class="sm:float-right sm:m-5 sm:w-64 w-full" />
+<img alt="Picture of a stressed-looking woman" src="/Stress-based-illness.png" title="Stressed face" className="float-right-image" />
 
 According to conventional medicine, stress, anxiety, depression and fatigue are symptoms of abnormal brain chemistry. As such, doctors often prescribe a variety of pharmaceutical drugs that attempt to mimic a sense of normalcy, but instead leave you feeling empty, drained and emotionally hollow.
 

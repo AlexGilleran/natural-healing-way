@@ -4,7 +4,7 @@ title: Corporate Clients | Natural Healing
 
 # Corporate Clients
 
-<img alt="Picture of happy employees" src="/happy-employees.jpg" title="Picture of happy employees" class="w-full" />
+<img alt="Picture of happy employees" src="/happy-employees.jpg" title="Picture of happy employees" className="mb-5" />
 
 Employees are your company’s lifeblood. Show your employees how much they’re appreciated with our corporate remedial massage program!
 

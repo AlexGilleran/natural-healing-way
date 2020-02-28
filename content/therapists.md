@@ -10,7 +10,7 @@ title: Therapists | Natural Healing
 
 ### Member of AACMA
 
-<img alt="Picture of Brian Sumin Zhao" src="/therapists/Dad-5-BEST-square.jpg" title="Picture of Brian Sumin Zhao" class="therapist-picture therapist-picture--left" />
+<img alt="Picture of Brian Sumin Zhao" src="/therapists/Dad-5-BEST-square.jpg" title="Picture of Brian Sumin Zhao" className="therapist-picture therapist-picture--left" />
 
 With an extensive family history in Chinese Medicine, Brian began his natural therapy education at a young age - learning about herbs and meditation from his father. He continued this pursuit at university, where he studied Chinese Medicine at Anhui Chinese Medicine University and later, the China Academy of Chinese Medical Science in Beijing, where he graduated with Honours and a Masters Degree.
 
@@ -24,7 +24,7 @@ Brian has over 30 years experience with complex health related issues and has pr
 
 ### Member of ATMS
 
-<img alt="Picture of Julie Li" src="/therapists/Mum-BEST-square.jpg" title="Picture of Julie Li" class="therapist-picture therapist-picture--right" />
+<img alt="Picture of Julie Li" src="/therapists/Mum-BEST-square.jpg" title="Picture of Julie Li" className="therapist-picture therapist-picture--right" />
 
 Julie's interest in the body's natural healing systems began at the age of 7, when she started learning Tai Chi from a pre-eminent master. This taught her the importance of mental and physical balance and was the beginning of a lifetime passion.
 

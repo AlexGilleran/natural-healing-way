@@ -2,7 +2,9 @@
 title: Facial Rejuvenation | Natural Healing
 ---
 
-<img alt="Picture of rejuvenated face" src="/facial-rejuvenation.jpg" title="Picture of rejuvenated face" class="w-full" />
+# Facial Rejuvenation
+
+<img alt="Picture of rejuvenated face" src="/Facial-Rejuvenation.jpg" title="Picture of rejuvenated face" className="w-full mb-5" />
 
 At Natural Healing, we believe that health and beauty are intrinsically connected. To enhance beauty, you must enhance health – a philosophy ignored by many modern cosmetic procedures, which promote short-term beauty at the expense of your long-term wellbeing.
 

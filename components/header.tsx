@@ -88,7 +88,7 @@ function MenuItem({ item }: { item: NavItem }) {
           } sm:absolute bg-nhw-green transition-nav-menu duration-200`}
         >
           {item.children.map(item => (
-            <MenuItem item={item}></MenuItem>
+            <MenuItem item={item} key={item.label || item.href}></MenuItem>
           ))}
         </ul>
       </li>
