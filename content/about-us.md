@@ -4,7 +4,7 @@ title: About Us | Natural Healing
 
 # About Us
 
-<img alt="Natural Healing Team" src="/Natural-Healing-team.jpg" title="Natural Healing Team" />
+<img alt="Natural Healing Team" src="/Natural-Healing-team.jpg" title="Natural Healing Team" class="w-full" />
 
 Natural Healing was formed in 1996 as the brainchild of founders and therapists Brian Zhao and Julie Li.
 

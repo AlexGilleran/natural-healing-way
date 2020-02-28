@@ -19,6 +19,10 @@ body {
   fill: currentColor;
 }
 
+.markdown {
+  @apply my-5;
+}
+
 .markdown h1 {
   @apply text-nhw-brown text-2xl my-4 font-medium;
 }
@@ -39,12 +43,12 @@ body {
   @apply list-decimal list-inside my-1 ml-5;
 }
 
-.markdown a {
-  @apply text-blue-600 underline;
+.markdown ul li {
+  @apply list-disc list-inside my-1 ml-5;
 }
 
-.markdown img {
-  @apply w-full;
+.markdown a {
+  @apply text-blue-600 underline;
 }
 
 img.therapist-picture {
