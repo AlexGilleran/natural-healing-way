@@ -95,6 +95,6 @@ img.therapist-picture {
   }
 }
 
-.contact-us td:first-child {
+.contact-us td {
   @apply w-48;
 }
