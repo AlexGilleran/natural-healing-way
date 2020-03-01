@@ -2,7 +2,11 @@ export default function ContactUsForm() {
   return (
     <div className="my-5">
       <h2 className="font-bold text-lg">Contact Us</h2>
-      <form className="bg-nhw-contact-us-bg block p-2 rounded mt-2">
+      <form
+        className="bg-nhw-contact-us-bg block p-2 rounded mt-2"
+        data-netlify="true"
+      >
+        <input type="hidden" name="form-name" value="contact-us" />
         <label className="m-2 block">
           Name (required)
           <input
