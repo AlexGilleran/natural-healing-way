@@ -19,7 +19,7 @@ export default function ContentPage(props: Props) {
         <article className="col-span-2">{props.children}</article>
         <aside className="col-span-1">
           <FacebookLikes />
-          {/* <ContactUs /> */}
+          <ContactUs />
         </aside>
       </div>
     </>
