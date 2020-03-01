@@ -3,6 +3,7 @@ export default function ContactUsForm() {
     <div className="my-5">
       <h2 className="font-bold text-lg">Contact Us</h2>
       <form
+        name="contact-us"
         className="bg-nhw-contact-us-bg block p-2 rounded mt-2"
         data-netlify="true"
       >
