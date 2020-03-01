@@ -7,7 +7,7 @@ interface Props {
   title: String;
   children: ReactNode;
 }
-
+//
 export default function ContentPage(props: Props) {
   return (
     <>
