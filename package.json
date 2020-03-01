@@ -7,8 +7,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "export": "next build && next export && next-on-netlify",
-    "postbuild": "next-on-netlify"
+    "export": "next build && next export"
   },
   "keywords": [],
   "author": "",
@@ -18,7 +17,6 @@
     "@fullhuman/postcss-purgecss": "^2.0.6",
     "autoprefixer": "^9.7.4",
     "next": "^9.2.2",
-    "next-on-netlify": "^1.0.1",
     "postcss-import": "^12.0.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",

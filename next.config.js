@@ -1,6 +1,4 @@
 module.exports = {
-  target: "serverless",
-  distDir: ".next",
   webpack: cfg => {
     cfg.module.rules.push({
       test: /\.md$/,
