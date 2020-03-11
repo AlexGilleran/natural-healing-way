@@ -52,7 +52,7 @@ export default function ContactUsForm() {
 
         <button
           type="submit"
-          className="inline-block p-2 rounded m-2 border border-gray-500 border-solid hover:bg-gray-400 hover:cursor-pointer"
+          className="inline-block p-2 rounded m-2 border border-gray-500 border-solid bg-white hover:bg-gray-400 hover:cursor-pointer"
         >
           Send
         </button>

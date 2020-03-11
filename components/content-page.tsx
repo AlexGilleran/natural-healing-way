@@ -5,6 +5,7 @@ import { FacebookLikes } from "./facebook-likes";
 
 interface Props {
   title: String;
+  description: String;
   children: ReactNode;
 }
 //
@@ -13,6 +14,7 @@ export default function ContentPage(props: Props) {
     <>
       <Head>
         <title>{props.title}</title>
+        <meta name="description">{props.description}</meta>
       </Head>
 
       <div className="container mx-auto px-4 grid grid-cols-1 lg:grid-cols-3 gap-0 lg:gap-10">

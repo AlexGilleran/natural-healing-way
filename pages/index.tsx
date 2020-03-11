@@ -1,15 +1,17 @@
 import Head from "next/head";
 import { Component } from "react";
-import { attributes, react as HomeContent } from "../content/index.md";
+import { attributes } from "../content/index.md";
 import Link from "next/link";
 
 export default class Home extends Component {
   render() {
-    let { title, panels } = attributes;
+    let { title, description, keywords, panels } = attributes;
     return (
       <>
         <Head>
           <title>{title}</title>
+          <meta name="description">{description}</meta>
+          <meta name="keywords">{keywords}</meta>
         </Head>
         <div className="w-full bg-gray-300">
           <div className="container mx-auto">

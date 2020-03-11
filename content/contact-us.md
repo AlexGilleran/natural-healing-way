@@ -1,5 +1,6 @@
 ---
-title: Contact Us | Natural Healing
+title: Contact Us
+description: Contact the team at Natural Healing Bondi Junction - phone us on 0452 218 646, email us at herbal58@hotmail.com or visit us at 6 Gray Street Bondi Junction.
 ---
 
 # Contact Us

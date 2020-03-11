@@ -1,5 +1,6 @@
 ---
-title: Corporate Clients | Natural Healing
+title: Corporate Clients
+description: Employees are your company’s lifeblood. Show your employees how much they’re appreciated - our experienced therapists have worked with many companies in Sydney’s Eastern Suburbs to provide remedial massage to employees as part of our corporate remedial massage program.
 ---
 
 # Corporate Clients

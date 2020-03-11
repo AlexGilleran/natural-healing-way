@@ -1,5 +1,6 @@
 ---
-title: About Us | Natural Healing
+title: About Us
+description: Natural Healing was formed in 1996 as the brainchild of founders and therapists Brian Zhao and Julie Li. At the core of their partnership is a 5 stage commitment that remains to this day, the foundation of Natural Healing’s treatment philosophy - Quality and Safety, Holistic, Individual, Root Seeking and Natural.
 ---
 
 # About Us
