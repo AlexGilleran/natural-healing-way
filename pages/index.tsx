@@ -9,10 +9,7 @@ export default class Home extends Component {
     return (
       <>
         <Head>
-          <title>
-            {title &&
-              title + " | Natural Healing Traditional Chinese Medicine Bondi"}
-          </title>
+          <title>{title}</title>
           <meta name="description" content={description} />
         </Head>
         <div className="w-full bg-gray-300">

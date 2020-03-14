@@ -1,5 +1,5 @@
 ---
-title: Natural Healing Traditional Medicine Bondi Junction
+title: Natural Healing Traditional Chinese Medicine Bondi
 description: "Alternative medicine and therapy clinic in Bondi Junction offering acupuncture, massage and herbal remedies"
 panels:
   - icon: male
