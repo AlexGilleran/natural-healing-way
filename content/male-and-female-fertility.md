@@ -1,5 +1,6 @@
 ---
-title: Male and Female Fertility | Natural Healing
+title: Male and Female Fertility
+description: Natural Healing has a long and successful history of treating both male and female functional infertility. We use a combination of treatments including acupuncture, herbs, meridian alignment and lifestyle therapy to increase blood and chi flow to reproductive organs, resulting in increased ovarian function in woman and increased sperm production in men.
 ---
 
 # Male and Female Fertility

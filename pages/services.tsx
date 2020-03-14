@@ -12,19 +12,25 @@ export default class Services extends Component {
   render() {
     const {
       title,
-      services
-    }: { title: string; services: Service[] } = attributes;
+      services,
+      description
+    }: { title: string; services: Service[]; description: string } = attributes;
 
     return (
-      <ContentPage title={title}>
+      <ContentPage title={title} description={description}>
         <div className="markdown">
           <OurServices />
         </div>
         <ul>
           {services.map(service => (
             <li className="my-6 flex flex-row flex-wrap sm:flex-no-wrap justify-between items-center">
-              <h2 className="font-bold text-lg mr-2 ml-2 sm:ml-0 w-48 flex-shrink-0">{service.title}</h2>
-              <img src={service.image} className="rounded-full w-20 h-20 flex-shrink-0" />
+              <h2 className="font-bold text-lg mr-2 ml-2 sm:ml-0 w-48 flex-shrink-0">
+                {service.title}
+              </h2>
+              <img
+                src={service.image}
+                className="rounded-full w-20 h-20 flex-shrink-0"
+              />
               <ul className="ml-6 mt-4 sm:mt-0 list-disc">
                 {service.points.map(point => (
                   <li>{point}</li>

@@ -1,5 +1,6 @@
 ---
-title: Weight Loss | Natural Healing
+title: Weight Loss
+description: Natural Healing’s treatments aim to treat the underlying cause of excess weight whether it be overeating, system imbalances, water retention or a slow functioning metabolism. We help you lose weight (and keep it off) in a healthy and safe manner.
 ---
 
 # Weight Loss

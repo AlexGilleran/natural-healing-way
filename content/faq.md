@@ -1,5 +1,6 @@
 ---
-title: FAQ | Natural Healing
+title: FAQ
+description: Frequently Asked Questions about Natural Healing and traditional medicine.
 ---
 
 # FAQ

@@ -1,7 +1,6 @@
 ---
 title: Natural Healing Traditional Medicine Bondi Junction
 description: "Alternative medicine and therapy clinic in Bondi Junction offering acupuncture, massage and herbal remedies"
-keywords: "acupuncture, massage, chinese medicine, herbal medicine, alternative therapy"
 panels:
   - icon: male
     heading: Individual
@@ -24,6 +23,3 @@ panels:
     linkLabel: Learn more
     linkHref: /specialities
 ---
-Welcome to my awesome page about cats of the internet.
-
-This page is built with NextJS, and content is managed in Netlify CMS 2

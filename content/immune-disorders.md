@@ -1,5 +1,6 @@
 ---
-title: Immune Disorders | Natural Healing
+title: Immune Disorders
+description: At Natural Healing, we treat immune disorders using a combination of herbs, acupuncture and meridian alignment, which aims to enhance your immune system by regulating hormones, reducing chi and blood stagnation and increasing the absorption of nutrients.
 ---
 
 # Immune Disorders

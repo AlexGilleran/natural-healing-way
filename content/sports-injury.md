@@ -1,5 +1,6 @@
 ---
-title: Sports Injury | Natural Healing
+title: Sports Injury
+description: Sports injuries commonly involve stress or damage to muscles, ligaments, tendons and joints. At Natural Healing we use a combination of acupuncture and sports injury massage to reduce pain, increase your range of motions and dramatically increase healing time. 
 ---
 
 # Sports Injury

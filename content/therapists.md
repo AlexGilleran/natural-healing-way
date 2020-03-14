@@ -1,5 +1,6 @@
 ---
-title: Therapists | Natural Healing
+title: Therapists
+description: Brian Zhao has over 30 years experience with complex health related issues and has practiced in various hospitals and clinics across China, New Zealand and Australia. Julie Li has over 15 years experience as a natural therapist, with a focus on women’s health, stress and pain relief.
 ---
 
 # Therapists
@@ -28,6 +29,6 @@ Brian has over 30 years experience with complex health related issues and has pr
 
 Julie's interest in the body's natural healing systems began at the age of 7, when she started learning Tai Chi from a pre-eminent master. This taught her the importance of mental and physical balance and was the beginning of a lifetime passion.
 
-Through university and further education, Julie delved into the rich world of natural therapy and later, began working in clinics across New Zealand and Australia. She has over 15 years experience as a natural therapist, with a focus on women’s health, stress and pain relief.
+Through university and further education, Julie delved into the rich world of natural therapy and later began working in clinics across New Zealand and Australia. She has over 15 years experience as a natural therapist, with a focus on women’s health, stress and pain relief.
 
 Julie has treated many different patients from all over the world. Despite their differences, her patients all have one thing in common – they all leave Natural Healing saying, “Wonderful! You’ve really made me better!”

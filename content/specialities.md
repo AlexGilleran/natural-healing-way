@@ -1,5 +1,6 @@
 ---
-title: Specialties | Natural Healing
+title: Specialties
+description: Specialties offered by Natural Healing - Facial Rejuvenation, Stress Based Illnesses, Immune Disorders, Male and Female Infertility, Sports Injury, Weight Loss
 ---
 
 # Specialties

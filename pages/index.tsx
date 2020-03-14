@@ -5,13 +5,15 @@ import Link from "next/link";
 
 export default class Home extends Component {
   render() {
-    let { title, description, keywords, panels } = attributes;
+    let { title, description, panels } = attributes;
     return (
       <>
         <Head>
-          <title>{title}</title>
-          <meta name="description">{description}</meta>
-          <meta name="keywords">{keywords}</meta>
+          <title>
+            {title &&
+              title + " | Natural Healing Traditional Chinese Medicine Bondi"}
+          </title>
+          <meta name="description" content={description} />
         </Head>
         <div className="w-full bg-gray-300">
           <div className="container mx-auto">

@@ -1,5 +1,6 @@
 ---
-title: Our Services | Natural Healing
+title: Our Services
+description: Natural Healing offers a number of services, including Holistic Consultation, Herbal Medicine, Meridian Alignment, Remedial Massage, Acupuncture, Cupping, Ear Candling, Nutrition Therapy and Tai Chi
 services:
   - title: Holistic Consultation
     points:
@@ -11,7 +12,7 @@ services:
       - We offer a variety of herbal treatments, including herbal teas, pills and formulas.
       - Herbal Medicine is renowned for its safety and natural efficacy. It uses plants, flowers and elements derived from nature to treat illnesses with minimal short and long term side effects. 
     image: /services/To-use-herbal-medicine-e1428638989497.png
-  - title: Meridian alignment
+  - title: Meridian Alignment
     points:
       - We developed this treatment after over 10 years of clinical trials and testing.
       - Meridian alignment involves the stimulation of a series of meridian points, performed in conjunctions with specialised movements to remove meridian blockages and develop your body’s innate healing system. 

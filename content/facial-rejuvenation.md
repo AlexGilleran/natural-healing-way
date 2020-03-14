@@ -1,5 +1,6 @@
 ---
-title: Facial Rejuvenation | Natural Healing
+title: Facial Rejuvenation
+description: Our facial rejuvenation treatments are holistic, non-invasive and completely safe. We use a combination of facial massage, cosmetic acupuncture and detoxifying herbs to balance your system and stimulate collagen and elastin production.
 ---
 
 # Facial Rejuvenation
