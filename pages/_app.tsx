@@ -1,5 +1,6 @@
 import React from "react";
 import App from "next/app";
+import Head from "next/head";
 
 import Header from "../components/header";
 
@@ -11,6 +12,9 @@ class MyApp extends App {
     const { Component, pageProps } = this.props;
     return (
       <div className="font-sans">
+        <Head>
+          <meta property="og:image" content="/Natural-Healing-team.jpg" />
+        </Head>
         <Header></Header>
         <Component {...pageProps} />
         <Footer />
